@@ -244,12 +244,12 @@ a:hover {
 
 /*-Sticky-*/
 .floatbar {
-  width: 261px;
-  height: 549px;
-  background: url(../images/bg-sticky.png) no-repeat top center;
+  width: 168px;
+  height: 743px;
+  background: url(../images/Float-Bar-BG.png) no-repeat top center;
   position: fixed;
   right: 0;
-  top: 28%;
+  top: 15%;
   z-index: 15;
 }
 .floatbar ul {
@@ -260,9 +260,10 @@ a:hover {
   flex-direction: column;
   font-size: 12px;
   padding-left: 0;
+  padding-top: 111%;
 }
 .floatbar ul li {
-  padding: 0.3rem 0;
+  padding: 0.2rem 0;
 }
 .floatbar ul li a {
   display: flex;
@@ -274,7 +275,7 @@ a:hover {
   filter: brightness(120%);
 }
 .floatbar ul li a.store {
-  margin-bottom: -7px;
+  margin-bottom: 0px;
 }
 .floatbar ul li a.store img {
   max-width: 100%;
@@ -283,10 +284,24 @@ a:hover {
   filter: brightness(190%);
 }
 .floatbar ul li a.nhapcode {
-  margin-top: -5px;
+  margin-top: 0px;
 }
-.floatbar ul li:first-child {
-  margin-bottom: -20px;
+.floatbar .joinforum {
+  position: relative;
+  top: 1%;
+  left: 6px;
+}
+.floatbar .joinforum:hover {
+  filter: brightness(160%);
+}
+.floatbar .icongame {
+  background: url(../images/Float-Bar-Icongame.png) no-repeat center top;
+  background-size: cover;
+  position: relative;
+  left: 11%;
+}
+.floatbar .icongame:hover {
+  filter: brightness(120%);
 }
 
 /*=Header=*/
@@ -386,11 +401,11 @@ a:hover {
 }
 
 .page2 {
-  top: -3px;
+  top: 0px;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 949px;
+  height: 950px;
   background: url(../images/Page-2-BG.jpeg) no-repeat top center;
 }
 .page2 .my-3 {
@@ -432,7 +447,7 @@ a:hover {
 }
 
 .page3 {
-  top: -5px;
+  top: -1px;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -540,7 +555,7 @@ a:hover {
 }
 
 .page4 {
-  top: -7px;
+  top: -2px;
   background: url(../images/Page-4-BG.jpeg) top center;
   position: relative;
   overflow: hidden;
@@ -596,7 +611,7 @@ a:hover {
 }
 
 .page5 {
-  top: -8px;
+  top: -4px;
   background: url(../images/Page-5-BG-new.jpeg) top center;
   position: relative;
   overflow: hidden;
@@ -645,11 +660,9 @@ a:hover {
   background: url(../images/Page-4-Popup-DangKySom-New.png) no-repeat top center;
   border: none;
   background-size: contain;
-  height: 1180px;
-  width: 853px;
+  height: 653px;
+  width: 1180px;
   position: relative;
-  top: 150px;
-  left: 98px;
 }
 .modal-dksom .modal-content .btn-close {
   position: absolute;
@@ -668,8 +681,8 @@ a:hover {
 }
 .modal-dksom .modal-content .modal-body .close {
   position: absolute;
-  top: 32px;
-  right: 43px;
+  top: 48px;
+  right: 60px;
   width: 38px;
   height: 56px;
   background: url(../images/Page-4-Popup-Close.png) no-repeat top center;
@@ -686,11 +699,9 @@ a:hover {
   background: url(../images/Page-4-Popup-TheLe.png) no-repeat top center;
   border: none;
   background-size: contain;
-  height: 1180px;
-  width: 853px;
+  height: 653px;
+  width: 1180px;
   position: relative;
-  top: 150px;
-  left: 98px;
 }
 .modal-thele .modal-content .btn-close {
   position: absolute;
@@ -709,8 +720,8 @@ a:hover {
 }
 .modal-thele .modal-content .modal-body .close {
   position: absolute;
-  top: 32px;
-  right: 43px;
+  top: 48px;
+  right: 60px;
   width: 38px;
   height: 56px;
   background: url(../images/Page-4-Popup-Close.png) no-repeat top center;
@@ -725,7 +736,7 @@ a:hover {
 
 /*==FOOTER=*/
 .footer {
-  top: -9px;
+  top: -5px;
   position: relative;
   min-height: 220px;
   background: url(../images/Page-6-BG-Footer.jpeg) no-repeat top center;

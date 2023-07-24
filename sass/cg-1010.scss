@@ -38,20 +38,36 @@ a:hover {text-decoration: none;}
   }
 }
 /*-Sticky-*/
-.floatbar{width: 261px;height:549px;background: url(../images/bg-sticky.png) no-repeat top center;position: fixed;right: 0;top: 28%;z-index: 15;
-  ul{list-style: none;display: flex;justify-content: center;align-items: center;flex-direction: column;font-size: 12px;padding-left:0;
-    li{padding:0.3rem 0;
+.floatbar{width: 168px;height:743px;background: url(../images/Float-Bar-BG.png) no-repeat top center;position: fixed;right: 0;top: 15%;z-index: 15;
+  ul{list-style: none;display: flex;justify-content: center;align-items: center;flex-direction: column;font-size: 12px;padding-left:0; padding-top: 111%;
+    li{padding:0.2rem 0;
       a{display: flex;align-items: center;align-content:center;color: #fff;
         &:hover{filter: brightness(120%);}
       }
-      a.store{margin-bottom: -7px;
+      a.store{margin-bottom: 0px;
         img{max-width: 100%;}
         &:hover{filter: brightness(190%);}
       }
-      a.nhapcode{margin-top: -5px;}
+      a.nhapcode{margin-top: 0px;}
 
     }
-    li:first-child{margin-bottom: -20px;}
+    // li:first-child{margin-bottom: -20px;}
+  }
+  .joinforum
+  {
+    position: relative;
+    top: 1%;
+    left: 6px;
+    &:hover{filter: brightness(160%);}
+  }
+
+  .icongame
+  {
+    background: url(../images/Float-Bar-Icongame.png) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    left: 11%;
+    &:hover{filter: brightness(120%);}
   }
 }
 
@@ -85,26 +101,91 @@ a:hover {text-decoration: none;}
   
 
 }
-.page2{top: -3px; position: relative;overflow: hidden;width: 100%;height: 949px;background: url(../images/Page-2-BG.jpeg) no-repeat top center;
-  .my-3{position: relative;top: 95px;}
-  .slider-bot{max-width: 1556px;margin: 0 auto; width: 80%;position:relative; top:50px;}
-  .carousel-slider{height: auto;position: relative;z-index: 2;
-    .swiper-container {width: 1556px;padding-top: 10px;padding-bottom: 10px;overflow: hidden;
-      .swiper-slide{width: 1556px;
-        img{display: block;margin: 0 auto;filter: blur(3px) grayscale(100%);}
+.page2
+{
+  top: 0px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 950px;
+  background: url(../images/Page-2-BG.jpeg) no-repeat top center;
+  .my-3
+  {
+    position: relative;
+    top: 95px;
+  }
+  .slider-bot
+  {
+    max-width: 1556px;
+    margin: 0 auto;
+    width: 80%;
+    position:relative;
+    top:50px;
+  }
+  .carousel-slider
+  {
+    height: auto;
+    position: relative;
+    z-index: 2;
+    .swiper-container
+    {
+      width: 1556px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      overflow: hidden;
+      .swiper-slide
+      {
+        width: 1556px;
+        img
+        {
+          display: block;
+          margin: 0 auto;
+          filter: blur(3px) grayscale(100%);
+        }
       }
-      .swiper-slide-active{
+      .swiper-slide-active
+      {
         img{filter: blur(0);}
       }
       .swiper-button-prev{top:308px; left:-80px;}
     }
+  }
 }
-}
-.page3{top: -5px;position: relative;overflow: hidden;width: 100%;height: 950px;background: url(../images/Page-3-BG.jpeg) no-repeat top center;
-  .my-3{position: relative;top: 45px;}
-  .slider2{width: 100%;position: relative;height: 100%;
-    .carousel-indicators{z-index: 6;width: 400px;height: 827px;left: 119px;top: -68px; background: url(../images/Page-3-Avatar-DeActive.png) no-repeat top center;margin: 0;
-      button{position: relative;;width: 59px;height: 59px;background-color: transparent;margin: -4px;        
+
+.page3
+{
+  top: -1px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 950px;
+  background: url(../images/Page-3-BG.jpeg) no-repeat top center;
+  .my-3
+  {
+    position: relative;
+    top: 45px;
+  }
+  .slider2
+  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    .carousel-indicators
+    {
+      z-index: 6;
+      width: 400px;
+      height: 827px;
+      left: 119px;
+      top: -68px;
+      background: url(../images/Page-3-Avatar-DeActive.png) no-repeat top center;
+      margin: 0;
+      button
+      {
+        position: relative;
+        width: 59px;
+        height: 59px;
+        background-color: transparent;
+        margin: -4px;        
         .normal{display: block;}
         .active1{display: none;}
         
@@ -133,7 +214,7 @@ a:hover {text-decoration: none;}
   }
 }
 
-.page4{top: -7px;background: url(../images/Page-4-BG.jpeg) top center;position: relative;overflow: hidden;width: 100%;height: 950px;
+.page4{top: -2px;background: url(../images/Page-4-BG.jpeg) top center;position: relative;overflow: hidden;width: 100%;height: 950px;
   h2{position: relative;top: 55px;}
   .showdk{position: relative;width: 100%;
     img.inactive{display: none;margin: 0 auto;max-width: 100%;}
@@ -161,20 +242,14 @@ a:hover {text-decoration: none;}
   // }
 }
 
-.page5{top: -8px;background: url(../images/Page-5-BG-new.jpeg) top center;position: relative;overflow: hidden;width: 100%;height: 950px;
+.page5{top: -4px;background: url(../images/Page-5-BG-new.jpeg) top center;position: relative;overflow: hidden;width: 100%;height: 950px;
   h2{position: relative;top: 26px; left: 62px;}
   a{
     &:hover{filter: brightness(120%);
       img{transform: scale(1.02);}
     }
   }
-  // ul{list-style: none;display: flex;justify-content: center;align-items: center;gap:25px;position: relative;top:83px;
-  //   a{
-  //     &:hover{filter: brightness(120%);
-  //       img{transform: scale(1.02);}
-  //     }
-  //   }
-  // }
+
 }
 .modal-dialog{
   .modal-content{background:url(../images/frame-popup.png) no-repeat top center;border:none;background-size:contain;
@@ -189,26 +264,26 @@ a:hover {text-decoration: none;}
 }
 
 .modal-dksom{
-  .modal-content{background:url(../images/Page-4-Popup-DangKySom-New.png) no-repeat top center;border:none;background-size:contain; height: 1180px; width: 853px; position: relative; top:150px; left: 98px;
+  .modal-content{background:url(../images/Page-4-Popup-DangKySom-New.png) no-repeat top center;border:none;background-size:contain; height: 653px; width: 1180px; position: relative;
     .btn-close{position: absolute;width: 54px;height: 54px;z-index: 100;right:12%;top:2rem;opacity: 1;
       img{max-width: 100%;}
       
     }
     .modal-body{padding:20px 100px;
-      .close{position: absolute;top:32px;right:43px;width: 38px;height: 56px;background: url(../images/Page-4-Popup-Close.png) no-repeat top center;border: none; background-size: contain;}
+      .close{position: absolute;top:48px;right:60px;width: 38px;height: 56px;background: url(../images/Page-4-Popup-Close.png) no-repeat top center;border: none; background-size: contain;}
       img{max-width: 100%;margin: 0 auto;display: block;}
     }
   }
 }
 
 .modal-thele{
-  .modal-content{background:url(../images/Page-4-Popup-TheLe.png) no-repeat top center;border:none;background-size:contain; height: 1180px; width: 853px; position: relative; top:150px; left: 98px;
+  .modal-content{background:url(../images/Page-4-Popup-TheLe.png) no-repeat top center;border:none;background-size:contain; height: 653px; width: 1180px; position: relative;
     .btn-close{position: absolute;width: 54px;height: 54px;z-index: 100;right:12%;top:2rem;opacity: 1;
       img{max-width: 100%;}
       
     }
     .modal-body{padding:20px 100px;
-      .close{position: absolute;top:32px;right:43px;width: 38px;height: 56px;background: url(../images/Page-4-Popup-Close.png) no-repeat top center;border: none; background-size: contain;}
+      .close{position: absolute;top:48px;right:60px;width: 38px;height: 56px;background: url(../images/Page-4-Popup-Close.png) no-repeat top center;border: none; background-size: contain;}
       img{max-width: 100%;margin: 0 auto;display: block;}
     }
   }
@@ -216,7 +291,7 @@ a:hover {text-decoration: none;}
 
 
 /*==FOOTER=*/
-.footer{top: -9px;position: relative;;min-height: 220px;background: url(../images/Page-6-BG-Footer.jpeg) no-repeat top center;width: 100%; height: 270px;
+.footer{top: -5px;position: relative;;min-height: 220px;background: url(../images/Page-6-BG-Footer.jpeg) no-repeat top center;width: 100%; height: 270px;
   .footer-content{display: flex;flex-direction: column;align-items: center;justify-content: center;
     p{line-height: 1;font-weight: 500;font-size: 16px;color:white;}
   }
