@@ -656,7 +656,7 @@ a:hover {
   display: block;
 }
 
-.modal-dksom .modal-content {
+.modal-dksom .modal-dialog .modal-content {
   background: url(../images/Page-4-Popup-DangKySom-New.png) no-repeat top center;
   border: none;
   background-size: contain;
@@ -664,7 +664,10 @@ a:hover {
   width: 1180px;
   position: relative;
 }
-.modal-dksom .modal-content .btn-close {
+.modal-dksom .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+.modal-dksom .modal-dialog .modal-content .btn-close {
   position: absolute;
   width: 54px;
   height: 54px;
@@ -673,23 +676,47 @@ a:hover {
   top: 2rem;
   opacity: 1;
 }
-.modal-dksom .modal-content .btn-close img {
+.modal-dksom .modal-dialog .modal-content .btn-close img {
   max-width: 100%;
 }
-.modal-dksom .modal-content .modal-body {
-  padding: 20px 100px;
+.modal-dksom .modal-dialog .modal-content .modal-body .container {
+  padding: 0;
+  padding-top: 17.5%;
+  padding-left: 35%;
 }
-.modal-dksom .modal-content .modal-body .close {
+.modal-dksom .modal-dialog .modal-content .modal-body .container input {
+  font-size: 2vW;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 130%;
+}
+.modal-dksom .modal-dialog .modal-content .modal-body .container .row {
+  margin-bottom: 2.8%;
+}
+.modal-dksom .modal-dialog .modal-content .modal-body .container .col-submit {
+  width: 48%;
+  height: 6vw;
+}
+.modal-dksom .modal-dialog .modal-content .modal-body .container .col-submit .btn {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+.modal-dksom .modal-dialog .modal-content .modal-body .close {
   position: absolute;
-  top: 48px;
-  right: 60px;
-  width: 38px;
-  height: 56px;
+  top: 3vw;
+  right: 4vw;
+  width: 4vw;
+  height: 4vw;
   background: url(../images/Page-4-Popup-Close.png) no-repeat top center;
   border: none;
   background-size: contain;
 }
-.modal-dksom .modal-content .modal-body img {
+.modal-dksom .modal-dialog .modal-content .modal-body img {
   max-width: 100%;
   margin: 0 auto;
   display: block;
@@ -720,10 +747,10 @@ a:hover {
 }
 .modal-thele .modal-content .modal-body .close {
   position: absolute;
-  top: 48px;
-  right: 60px;
-  width: 38px;
-  height: 56px;
+  top: 3vw;
+  right: 4vw;
+  width: 4vw;
+  height: 4vw;
   background: url(../images/Page-4-Popup-Close.png) no-repeat top center;
   border: none;
   background-size: contain;
